@@ -17,6 +17,16 @@
 采用交互式方式实例化某学生；
 设计程序完成上述的业务逻辑处理，并且把“古诗处理后的输出”结果存储到学生基本信息所在的文本文件A中。
 
+核心代码
+import java.io.*; 
+ import java.util.Objects; 
+ import java.util.Scanner; 
+   public class Test { 
+ public static void main(String[] args) { 
+ Scanner f = new Scanner(System.in); 
+ Student i1 = new Student("wu", "wu", 0, "wu"); 
+ System.out.println("请依次输入班级，姓名，学号，性别：");
+
 实验感想
 通过本次实验，学会了文件的读写，掌握了异常处理的结构，掌握了字符串String及其方法的使用
 掌握了文件的读取/写入方法和异常处理结构
